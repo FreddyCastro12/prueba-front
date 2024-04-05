@@ -1,0 +1,242 @@
+body {
+    background-color: #ECF0F7;
+}
+
+.w-10 {
+    width: 10% !important
+}
+
+.w-15 {
+    width: 15% !important
+}
+
+.w-25 {
+    width: 25% !important
+}
+
+.w-65 {
+    width: 65% !important
+}
+
+.w-45 {
+    width: 45% !important
+}
+
+.w-70 {
+    width: 70% !important
+}
+
+.w-80 {
+    width: 80% !important
+}
+
+.w-90 {
+    width: 90% !important
+}
+
+.w-100 {
+    width: 100% !important
+}
+
+.p-steps {
+    padding-top: 5rem!important;
+    padding-bottom: 7rem!important;
+}
+
+.p-steps ul {
+    display: inline !important;
+    align-items: baseline;
+}
+
+.p-steps-item .p-menuitem-link {
+    flex-direction: inherit !important;
+    align-items: baseline !important;
+}
+
+.p-steps-item {
+    justify-content: flex-start !important;
+}
+
+.p-steps .p-steps-item:before {
+    display: none !important;
+}
+
+.p-card .p-card-content {
+    padding-top: 0;
+}
+
+.p-steps .p-steps-item .p-steps-title {
+    margin-left: 1rem;
+    background-color: #00458D;
+    color: #ffffff !important;
+    border-radius: 90px / 90px;
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-right: 1rem;
+}
+
+.p-steps-item.p-disabled .p-steps-title {
+    display: none;
+}
+
+.p-steps .p-steps-item .p-steps-number {
+    background-color: #00458D !important;
+    color: #ffffff !important;
+    border: 1px solid #007AD9 !important;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+}
+
+.dropdown-divider {
+    border-top: 2px solid #ECF0F7;
+}
+
+.p-inputtext,
+.p-dropdown {
+    border: 1px solid #87AECC;
+}
+
+.p-dropdown:not(.p-disabled):hover,
+.p-dropdown:not(.p-disabled).p-focus {
+    box-shadow: 0 0 0 0.1rem #87AECC;
+}
+
+.p-dropdown,
+.p-calendar {
+    display: flex !important;
+}
+
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item:not(.p-highlight):not(.p-disabled):hover,
+.p-dropdown-panel .p-dropdown-items .p-dropdown-item.p-highlight,
+.p-calendar thead tr {
+    background-color: #87AECC;
+    color: #fff;
+}
+
+.p-datepicker-header,
+.p-datepicker-header button {
+    background-color: #00458D !important;
+    color: #fff !important;
+}
+
+.p-card-title {
+    color: #00458D;
+    font-size: 20px !important;
+    font-weight: 200 !important;
+}
+
+.p-card-title .pi {
+    font-size: 1.5rem;
+    padding-top: 10px;
+}
+
+.p-card-title div {
+    display: contents;
+}
+
+.p-button {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    font-size: 14px;
+    font-weight: 200;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+}
+
+
+/* Medium devices (tablets, 768px and up) */
+
+@media (max-width: 767.98px) {
+    .p-steps {
+        padding-top: 0rem!important;
+        padding-bottom: 0rem!important;
+    }
+    .p-steps ul {
+        display: flex!important;
+    }
+    .p-steps .p-steps-item .p-steps-title {
+        display: none;
+    }
+    .field,
+    .p-field {
+        padding-top: 25px;
+    }
+    .p-card .p-card-body {
+        padding: 0.5rem;
+        padding-top: 0;
+    }
+    .p-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .p-steps .p-steps-item .p-steps-title {
+        display: none;
+    }
+    .p-steps {
+        padding-top: 0rem!important;
+        padding-bottom: 1rem!important;
+    }
+    .p-steps-item {
+        justify-content: center !important;
+    }
+    .p-button {
+        width: 100%;
+        margin-top: 10px;
+    }
+    .field,
+    .p-field {
+        padding-top: 25px;
+    }
+    .p-card .p-card-body {
+        padding: 0.5rem;
+        padding-top: 0;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .p-steps {
+        padding-top: 0rem!important;
+        padding-bottom: 1rem!important;
+    }
+    .p-steps .p-steps-item .p-steps-title {
+        display: none;
+    }
+    .p-steps-item {
+        justify-content: center !important;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+    .p-steps {
+        padding-top: 0rem!important;
+        padding-bottom: 1rem!important;
+    }
+    .p-steps .p-steps-item .p-steps-title {
+        display: none;
+    }
+    .p-steps-item {
+        justify-content: center !important;
+    }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1400px) {}
+
+:host ::ng-deep #toastemployee .ui-toast-message {
+    width: 650px !important;
+}
